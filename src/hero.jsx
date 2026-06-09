@@ -16,7 +16,7 @@ function Hero() {
                     playsInline
                     className="hero-video"
                 >
-                    <source src={video} />
+                    <source src={video} type="video/mp4" />
                 </video>
 
                 <div className="hero-overlay" />
