@@ -9,6 +9,10 @@
   box-sizing: border-box
 }
 
+#home, #AboutUs, #Services, #Loans, #contact {
+    scroll-margin-top: 74px;
+}
+
 
 
 html,
