@@ -1,0 +1,156 @@
+.AboutSection {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.Aboutus-text {
+    width: 550px;
+}
+
+.little-title {
+    color: #C8500F;
+    font-weight: light;
+    text-align: center;
+}
+
+.big-title {
+    color: #1a1f2c;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.invertbigtitle {
+    color: #F26A1F;
+    font-style: italic;
+    display: block;
+    line-height: 1;
+    padding-bottom: 10px;
+}
+
+.Aboutus-text p {
+    color: #3B4252;
+    font-size: large;
+}
+
+
+@media (max-width: 768px) {
+    .AboutSection {
+        margin-top: 60px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Aboutus-text {
+        width: 350px;
+    }
+
+    .big-title {
+        font-size: xx-large;
+    }
+
+    .invertbigtitle {
+        display: block;
+        line-height: 1;
+        padding-bottom: 10px;
+    }
+
+    .Aboutus-text p {
+        color: #3B4252;
+        font-size: large;
+    }
+
+
+}
+
+
+p {
+    color: #3B4252;
+    font-size: large;
+}
+
+.WWa{
+    margin-top: 100px;
+    text-align: center;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WWa p{
+    font-size: larger;
+}
+
+.coreV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 60px;
+}
+
+.integrity, .customerF, .innovation, .growth, .reliability {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.coreV img {
+    width: 92px;
+    height: 92px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.coreV p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3B4252;
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .coreV {
+        gap: 30px;
+        padding: 40px 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .coreV img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .coreV p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .coreV {
+        gap: 30px;
+        padding: 40px 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .coreV img {
+        width: 65px;
+        height: 65px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .WWa {
+        margin-top: 60px;
+        padding: 0 20px;
+    }
+}
